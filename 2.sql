@@ -7,10 +7,9 @@ id	first_name	country	    score
 5	Peter	    USA	        0
 */
 
--- Challenge: retrive customers scores not equal to 0
+-- Challenge: retrive customers from Germany
 
 -- Solution:
 SELECT *
 FROM customers 
-WHERE score != 0;
- 
+WHERE country = 'Germany';
