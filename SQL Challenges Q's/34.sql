@@ -11,10 +11,10 @@
 
 
 /*
-Challenge: Retrieve all customers who are from USA or have score greather than 500
+Challenge: Retrieve all customers with a score NOT less than 500
 */
 
 -- Solution:
 SELECT *
 FROM customers
-WHERE score > 500 OR country = 'USA'
+WHERE NOT score < 500

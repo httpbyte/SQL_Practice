@@ -17,4 +17,4 @@ Challenge: Retrieve all customers with a score greater than 500 and from USA
 -- Solution:
 SELECT *
 FROM customers
-WHERE score > 500 AND country = USA
+WHERE score > 500 AND country = 'USA'
