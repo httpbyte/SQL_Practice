@@ -10,13 +10,11 @@
 */
 
 /*
-Challenge: Change the score of customers 7 to 0 and update the country to UK
+Challenge: Delete all customers with an ID greather than 5
 */
 
 -- Solution:
-UPDATE customers
-SET score   = 0,
-    country = 'UK'
-WHERE id = 7
+DELETE from customers
+WHERE id > 5
 
 SELECT * FROM customers
