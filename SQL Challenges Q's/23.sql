@@ -1,0 +1,21 @@
+/*
+    id	first_name	country	score
+    1	Maria	    Germany	350
+    2	John	    USA	    900
+    3	Georg   	UK	    750
+    4	Martin	    Germany	500
+    5	Peter	    USA	    200
+    6	Anna	    USA	    100
+    7	John	    USA	    50
+*/
+
+/*
+Challenge: Change the score of customers 6 to 0
+*/
+
+-- Solution:
+UPDATE customers
+SET score = 0
+WHERE id = 6
+
+SELECT * FROM customers
